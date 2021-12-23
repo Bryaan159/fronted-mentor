@@ -9,7 +9,7 @@ html{background-color: hsl(217, 54%, 11%);}
     color: white;
 }
 .card{
-  height: 125vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
