@@ -2,17 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
 
 /* Parte de CSS */
-*{
-    font-family: ;
-}
-
-html{
-    /* background-color:hsl(217, 54%, 11%); */
-
-}
+/* TODO: Primera Parte */
+html{background-color: hsl(217, 54%, 11%);}
 *{
     font-family:'Outfit';
     color: white;
+}
+.card{
+  height: 125vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 5vw;
 }
 .container{
     background-color:hsl(216, 50%, 16%) ;
@@ -28,4 +29,84 @@ html{
 }
 .container h2{
     color: hsl(178, 100%, 50%); 
+}
+.container .main-img{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+/* TODO:Segunda Parte */
+.container img{
+    max-width: 100%;
+    cursor: pointer;
+    transition: .5s;
+    border-radius:1.2rem;
+}
+#view{
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    transition: .5s;
+    padding:125px;
+}
+/*? Interesante*/
+.container #view:hover{
+    background-color: hsla(178, 100%, 50%, 0.699);
+    opacity:1;
+}
+.container img:hover{
+    opacity: 4;
+}
+.container .details{
+    display: flex;
+    justify-content:space-between;
+}
+
+.container .details .logoEthereum{
+    display: flex;
+    align-items:center;
+}
+.line{
+    display:block;
+    width: 100%;
+    height:1px;
+    background-color: hsl(215, 32%, 27%);
+    margin: 10px 0;
+}
+.ethDetails{
+    color: hsl(178, 100%, 50%);
+}
+
+.container p{
+    font-size:18px;
+    color:hsl(215, 51%, 70%);
+    font-family: 'Outfit';
+}
+.clockDetails{
+    color:hsl(215, 51%, 70%);
+}
+img[alt = "ethereum"]{
+    margin-right: 10px;
+}
+img[alt = "clock"]{
+    margin-right: 10px;
+}
+.container .buyer{
+    display: flex;
+    align-items: center;
+}
+.container .buyer img{
+    width:45px;
+    height:auto;
+    margin-right: 10px;
+    border-radius:80%;
+    border:3px solid white;
+
+}
+.container .buyer p{
+    font-size:1.1rem;
+} 
+.container .buyer .jules{
+    color: hsl(178, 100%, 50%);
 }

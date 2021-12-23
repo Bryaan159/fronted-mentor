@@ -9,20 +9,22 @@
   <title>NFT Card</title>
 </head>
 
-<body>
-  <main>
-    <!-- TODO:Container -->
+<body style="overflow-y: hidden;">
+  <!-- TODO:Main -->
+  <main class="card">
     <div class="container">
       <!-- TODO:Encabezado -->
       <div class="main-img">
-        <img src="./images/image-equilibrium.jpg" alt="logoNFT" class="logoNFT">
+
+        <!--!Imagen del NFT -->
+        <img src="./images/image-equilibrium.jpg" alt="iconoNFT" class="logoNFT">
+
+        <!--! Imagen del View -->
         <img src="./images/icon-view.svg" alt="viewLogo" id="view" />
-        <h2 class="titleCard">Equilibrium #3429</h2>
-        <p>
-          Our Equilibrium collection promotes balance and calm.
-        </p>
       </div>
 
+      <h2>Equilibrium #3429</h2>
+      <p>Our Equilibrium collection promotes balance and calm.</p>
 
       <!-- TODO:Detalles -->
       <div class="details">
@@ -35,11 +37,11 @@
       </div>
 
       <!-- TODO:Linea horizontal -->
-      <div class="line"></div>
+      <span class="line"></span>
 
       <div class="buyer">
         <img src="./images/image-avatar.png" alt="avatar" class="avatarIMG">
-        <p>Creation of <span>Jules Wyvern</span></p>
+        <p>Creation of <span class=jules>Jules Wyvern</span></p>
       </div>
     </div>
   </main>
