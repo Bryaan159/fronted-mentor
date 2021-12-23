@@ -86,6 +86,8 @@ html{background-color: hsl(217, 54%, 11%);}
 .clockDetails{
     color:hsl(215, 51%, 70%);
 }
+/* TODO: Tercera Parte */
+
 img[alt = "ethereum"]{
     margin-right: 10px;
 }
