@@ -1,7 +1,31 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
 
 /* Parte de CSS */
-.cardMain{
-    background-color: aqua;
+*{
+    font-family: ;
+}
+
+html{
+    /* background-color:hsl(217, 54%, 11%); */
+
+}
+*{
+    font-family:'Outfit';
+    color: white;
+}
+.container{
+    background-color:hsl(216, 50%, 16%) ;
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    padding:20px;
+    border-radius: 19px;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    position: relative;
+    margin:auto;
+}
+.container h2{
+    color: hsl(178, 100%, 50%); 
 }
